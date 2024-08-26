@@ -112,7 +112,10 @@ def main():
 
     print("Evaluating SVM Model...")
     evaluate_model(svm_model, X_train_small, y_train_small, X_test_transformed, y_test)
-
+    
+# After running (took a long time)
+# KNN Accuracy: 0.9415
+# SVM Accuracy: 0.9501
 
 if __name__ == "__main__":
     main()
